@@ -15,7 +15,7 @@ public class Main {
 			
 			
 			
-			System.out.print("-------------------------------");
+			System.out.println("-------------------------------");
 			System.out.println("|  1-Incremetar el contador   |");
 			System.out.println("|  2-Reniciar el contador     |");
 			System.out.println("-------------------------------");
@@ -23,7 +23,7 @@ public class Main {
 			switch(menu)
 			{
 				case 1:
-					c.incrementarContador(max);
+					c.incrementarContador();
 					break;
 				case 2:
 					c.resetearContador();

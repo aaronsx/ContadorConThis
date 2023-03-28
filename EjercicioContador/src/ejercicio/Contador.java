@@ -25,9 +25,8 @@ public class Contador
 	 {
 		 this.contador=0;
 	 }
-	 public void incrementarContador(int max) 
+	 public void incrementarContador() 
 	 {
-		 this.maximo=max;
 		 if(this.contador==this.maximo)
 			 resetearContador();
 		 
